@@ -19,7 +19,7 @@
 @font-face{font-family:"Bricolage Grotesque";src:url(fonts/bricolage.woff2) format("woff2");font-weight:200 800;font-display:swap}
 @font-face{font-family:"DM Mono";src:url(fonts/dmmono-500.woff2) format("woff2");font-weight:500;font-display:swap}
 :root{
-  --bleu:#2e68b9;--creme:#faf3e5;--jaune:#fed222;--rouge:#f44d37;--vert:#389d43;--rose:#fd6e9f;--encre:#0b0b0c;--blanc:#fff;
+  --bleu:#2e68b9;--creme:#faf3e5;--jaune:#fed222;--rouge:#f44d37;--vert:#389d43;--rose:#fd6e9f;--encre:#0b0b0c;--blanc:#fff;--bordeaux:#661118;
   --display:"Bricolage Grotesque","Arial Black",system-ui,sans-serif;--mono:"DM Mono",ui-monospace,Menlo,monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -60,7 +60,8 @@ nav{width:100%;margin-top:32px;display:flex;flex-direction:column;gap:16px}
 .serie .texte small{font-size:12px}
 .musicales{background:var(--rouge)}
 .musicales .youtube .pastille{background:var(--creme)}
-.gangsters{background:var(--vert);animation-delay:.44s}
+.gangsters{background:var(--bordeaux);animation-delay:.44s}
+.gangsters .accroche{color:var(--creme)}
 
 /* La rue */
 .bas{position:relative;width:100%;overflow:hidden;display:flex;justify-content:center;margin-top:8px}
